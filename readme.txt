@@ -15,17 +15,20 @@ Use Userpro Member Directory Listing in a widget and turn it into a jquery respo
 Use Userpro Member Directory Listing in a widget and turn it into a jquery responsive carousel, all depending on your 
 own settings.
 
+You need the Userpro - User Profiles for WordPress - plugin for this to work: 
+http://bit.ly/userpro
+
 Uses responsive BXSlider - http://bxslider.com / Released under the MIT license - http://opensource.org/licenses/MIT
 Written by Steven Wanderski - http://stevenwanderski.com
 
 == Installation ==
 
 1. Upload `plugin-name.php` to the `/wp-content/plugins/` directory
-1. Activate the plugin through the 'Plugins' menu in WordPress
-1. Add the custom members template to your active template folder, found in the "copy-to-theme" folder.
+2. Activate the plugin through the 'Plugins' menu in WordPress
+3. Add the custom members template to your active template folder, found in the "copy-to-theme" folder.
 Make a separate userpro-folder to override the standard template. ( wp-content/themes/your-theme/userpro ) For now only the avatar image size is used to give the memberslist a unique css class to target.
-1. Go to Widgets and add the Userpro Member Carousel widget 
-1. Use your shortcode of chose or, for a single vertical memberlist of avatars use :
+4. Go to Widgets and add the Userpro Member Carousel widget 
+5. Use your shortcode of chose or, for a single vertical memberlist of avatars use :
 
 [userpro template=memberlist memberlist_v2=0 memberlist_pic_size=100 memberlist_pic_topspace=0 memberlist_pic_sidespace=0 memberlist_pic_rounded=1 memberlist_paginate=0 memberlist_show_name=1 memberlist_popup_view=0 memberlist_withavatar=0 search=0 per_page=60 memberlist_width=100%]
 
@@ -33,12 +36,12 @@ Make sure that the memberlist_pic_size=XXX value is unique. If it's the same as 
 
 See http://userproplugin.com/userpro/docs/#shortcode_memberlist for more options.
 		 
-1. Adjust the settings as needed/wished and you're good to go..
+6. Adjust the settings as needed/wished and you're good to go..
 
-1. Targe css by default is : div.userpro-body.userpro-body-nopad.100
+7. Target css by default is : div.userpro-body.userpro-body-nopad.100
 Where 100 is your avatar size. For example: memberlist_pic_size=100
 
-1. Adjust Slider Controls. Default is :
+8. Adjust Slider Controls. Default is :
     mode: 'vertical',
     slideWidth: 200,
     minSlides: 1,

@@ -2,7 +2,7 @@
 /**
 Plugin Name: Userpro Member Carousel
 Plugin URI: http://happycmpr.nl
-Description: Show members in carousel
+Description: Show Userpro User Profiles in carousel. Requires Userpro plugin - http://bit.ly/userpro
 Author: HappyCMPR - Radomir
 Version: 1.0
 Author URI: http://happycmpr.nl
