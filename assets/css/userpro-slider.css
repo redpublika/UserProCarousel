@@ -10,6 +10,13 @@
  * http://bxcreative.com
  */
 
+/** for Userpro Single column vertical Carousel */
+div.userpro-user {
+float: left;
+clear: both;
+}
+
+
 
 /** RESET AND LAYOUT
 ===================================*/

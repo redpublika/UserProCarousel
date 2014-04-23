@@ -41,6 +41,16 @@ See http://userproplugin.com/userpro/docs/#shortcode_memberlist for more options
 7. Target css by default is : div.userpro-body.userpro-body-nopad.100
 Where 100 is your avatar size. For example: memberlist_pic_size=100
 
+To get the single column vertical effect i added 
+
+/** for Userpro Single column vertical Carousel */
+div.userpro-user {
+float: left;
+clear: both;
+}
+
+to the css file found in assets -> css folder.
+
 8. Adjust Slider Controls. Default is :
     mode: 'vertical',
     slideWidth: 200,
